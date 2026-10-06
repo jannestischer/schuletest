@@ -11,5 +11,5 @@
                            "eyJ..." oder "sb_publishable_...")
    ============================================================ */
 
-const SUPABASE_URL = "https://jleufuhrdyjagyipcupd.supabase.co/rest/v1/";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpsZXVmdWhyZHlqYWd5aXBjdXBkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEyNjIxMTAsImV4cCI6MjEwNjgzODExMH0.ssIx_txJMrhpXGoBzdOYe__r3VhEbjNVtHc7OTRQWHgY";
+const SUPABASE_URL = "https://jleufuhrdyjagyipcupd.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_wj9CtvuvA5T3DtlEa8z5Rw_zGDljlOM";

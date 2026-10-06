@@ -72,7 +72,10 @@
 
             if (profileError) {
                 console.error("profiles-Abfrage fehlgeschlagen:", profileError);
-                showError("Die Datenbank ist noch nicht eingerichtet – führe das SQL-Skript aus der README aus.");
+                showError(
+                    "Die Datenbank ist noch nicht eingerichtet oder der API-Key stimmt nicht. " +
+                    "Technisch: " + profileError.message
+                );
                 return;
             }
 
@@ -102,7 +105,7 @@
                     showError("Bitte bestätige zuerst deine E-Mail-Adresse.");
                 } else {
                     console.error("Login fehlgeschlagen:", signInError);
-                    showError("Anmeldung fehlgeschlagen. Bitte versuche es erneut.");
+                    showError("Anmeldung fehlgeschlagen: " + signInError.message);
                 }
                 return;
             }

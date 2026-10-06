@@ -94,7 +94,7 @@
                     showError("Zu viele Versuche. Bitte warte einen Moment und versuche es erneut.");
                 } else {
                     console.error("Registrierung fehlgeschlagen:", error);
-                    showError("Registrierung fehlgeschlagen. Bitte versuche es erneut.");
+                    showError("Registrierung fehlgeschlagen: " + error.message);
                 }
                 return;
             }
