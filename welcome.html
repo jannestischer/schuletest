@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willkommen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="card card-center">
+        <div class="avatar" aria-hidden="true">&#10003;</div>
+        <h1>Willkommen!</h1>
+        <p class="subtitle">Du bist erfolgreich eingeloggt.</p>
+
+        <p class="account">
+            Angemeldet als:<br>
+            <strong id="user-email">…</strong>
+        </p>
+
+        <button type="button" id="logout-btn">Abmelden</button>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+    <script src="js/supabase-client.js"></script>
+    <script src="js/session.js"></script>
+</body>
+</html>
